@@ -1,11 +1,12 @@
 package proxy_pattern;
 
 public class Text implements SubjectInterface {
-	private String content = "Hello,World!" ;
+	private String content = "Read Test => Hello,World!" ;
 	
 	
 	public void setContent(String newContent) {
-		this.content = newContent;
+	//	this.content = newContent;
+		System.out.println("Write Test => " + newContent);
 		
 	}
 	

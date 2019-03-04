@@ -9,4 +9,10 @@ public class proxy_ReadOnly implements SubjectInterface{
 		return proxyText.getContent();
 	}
 
+	@Override
+	public void setContent(String newContent) {
+		// TODO Auto-generated method stub
+	
+	}
+
 }
